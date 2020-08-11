@@ -1,0 +1,4 @@
+2020-08-10 10:33:06,056 - log4jexample.HtmlLayoutEx -INFO - Hello this is an info message
+2020-08-10 10:57:09,913 - log4jexample.HtmlLayoutEx -INFO - Hello this is an info message
+2020-08-10 11:32:17,371 - com.Log4j.Example -INFO - Hello this is an info message
+2020-08-10 11:34:14,111 - com.Log4j.Example -INFO - Hello this is an info message

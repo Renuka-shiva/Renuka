@@ -1,0 +1,4 @@
+[main] INFO log4jexample.HtmlLayoutEx - Hello this is an info message
+[main] INFO log4jexample.HtmlLayoutEx - Hello this is an info message
+[main] INFO com.Log4j.Example - Hello this is an info message
+[main] INFO com.Log4j.Example - Hello this is an info message

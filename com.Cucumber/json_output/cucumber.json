@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "NewTours Login test scenario",
+        "description": "",
+        "id": "newtours-login-feature;newtours-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13243445102,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already login page",
+            "match": {
+              "location": "LoginstepDefinition.user_is_already_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26095220,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title name is NewTours",
+            "match": {
+              "location": "LoginstepDefinition.title_name_is_NewTours()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 775388397,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username  and password",
+            "match": {
+              "location": "LoginstepDefinition.user_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "comments": [
+                  {
+                    "line": 7,
+                    "value": "#DataTable concept"
+                  }
+                ],
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "renukamohan58@gmail.com",
+                  "08062008"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132947185,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks Login button",
+            "match": {
+              "location": "LoginstepDefinition.user_clicks_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7082211142,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user on home page",
+            "match": {
+              "location": "LoginstepDefinition.user_on_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "NewTours Login feature",
+    "description": "",
+    "id": "newtours-login-feature",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
